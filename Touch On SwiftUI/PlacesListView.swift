@@ -12,9 +12,14 @@ struct PlacesListView: View {
     
     var body: some View {
         List(places) { place in
-            Text(place.name)
+            PlaceView(place: place)
+                .onTapGesture {
+                    self.selectDeselect(place) }
+                }
         }
         
+    func selectDeselect(_ place: Place) {
+        print("Selected \(place.id)")
     }
 }
 
