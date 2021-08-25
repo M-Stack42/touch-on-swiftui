@@ -16,6 +16,7 @@
 		709AAC8D26D54F1100F04FBE /* Touch_On_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709AAC8C26D54F1100F04FBE /* Touch_On_SwiftUITests.swift */; };
 		709AAC9826D54F1100F04FBE /* Touch_On_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709AAC9726D54F1100F04FBE /* Touch_On_SwiftUIUITests.swift */; };
 		709AACA826D6129100F04FBE /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709AACA726D6129100F04FBE /* PlacesListView.swift */; };
+		70A9B50926D620E000F613FE /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9B50826D620E000F613FE /* PlaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		709AAC9726D54F1100F04FBE /* Touch_On_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touch_On_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		709AAC9926D54F1100F04FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		709AACA726D6129100F04FBE /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
+		70A9B50826D620E000F613FE /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				709AAC8326D54F1100F04FBE /* Info.plist */,
 				709AAC7D26D54F1100F04FBE /* Preview Content */,
 				709AACA726D6129100F04FBE /* PlacesListView.swift */,
+				70A9B50826D620E000F613FE /* PlaceView.swift */,
 			);
 			path = "Touch On SwiftUI";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				709AAC7626D54F1000F04FBE /* AppDelegate.swift in Sources */,
 				709AAC7826D54F1000F04FBE /* SceneDelegate.swift in Sources */,
+				70A9B50926D620E000F613FE /* PlaceView.swift in Sources */,
 				709AACA826D6129100F04FBE /* PlacesListView.swift in Sources */,
 				709AAC7A26D54F1000F04FBE /* ContentView.swift in Sources */,
 			);
